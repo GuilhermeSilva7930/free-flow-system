@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA016D19-6D59-E021-BF8B-D1A3F5480017" name="FAIXA_ROLAMENTO">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:35:52 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_faixa" id="06286098-1820-0A05-3537-DDDAA79C94FB">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:38:49 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inativo" id="FEA29B24-0119-6F95-1019-FBA36AA89DEA">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:36:31 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="55184F20-E8C2-1069-7733-B8F90B2A1A3C">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:38:09 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F43079E-EDBB-FE1E-A3C3-3D2B7B87B62F" name="FAIXA_ROLAMENTO_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:39:38 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06286098-1820-0A05-3537-DDDAA79C94FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

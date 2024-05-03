@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A8980FC-0B20-ED7F-00F3-F330A68F93B1" name="MONITORAMENTO">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:41:19 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_monitoramento" id="88D36E8A-3EB8-386D-B18A-0EA82AAD2F00">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:41:38 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datahora" id="69481263-5BB4-30D9-19A7-A4975BE5B160">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:42:09 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPAMENTO_id_equipamento" id="9E95C3C4-F953-49E7-0C1A-7363923F79B9">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:55:26 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0665DE0-3122-11DE-E6FB-0EB969B712A1" referredColumn="85125950-B160-E7D5-7A35-C7E83D8DC6B2"/>
+</associations>
+</Column>
+<Column name="FAIXA_ROLAMENTO_id_faixa" id="8F41F2A2-D45E-B782-8910-AA7AB5F695B3">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:58:26 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5C65B6F-A048-DB01-9D9F-2AEC8B8AB9A2" referredColumn="06286098-1820-0A05-3537-DDDAA79C94FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B99A6A66-A962-614F-824B-F8CA8FCF3864" name="MONITORAMENTO_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:41:48 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88D36E8A-3EB8-386D-B18A-0EA82AAD2F00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D8B44A-47A9-04F4-1948-78745BFD93B0" name="id_equipamento">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:55:26 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E95C3C4-F953-49E7-0C1A-7363923F79B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B2502EA-B236-0C6D-325D-6C92346E1B9B" name="id_faixarolamento">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:58:26 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F41F2A2-D45E-B782-8910-AA7AB5F695B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

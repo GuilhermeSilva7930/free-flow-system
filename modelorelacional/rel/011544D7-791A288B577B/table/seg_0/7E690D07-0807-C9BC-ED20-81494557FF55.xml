@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E690D07-0807-C9BC-ED20-81494557FF55" name="PASSAGEM">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:42:37 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_passagem" id="4C1BF272-CF5F-2842-943D-7563B1D88D81">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:45:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datahora" id="3745A5AA-10A1-9B8B-CFD4-DF310B6B579D">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:45:55 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEICULO_id_veiculo" id="7F3F52A5-9821-1DDC-2CDE-DCA732611B4D">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-03 00:00:46 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A2CAABF-53D5-2035-AE7D-B47756C53ABD" referredColumn="62FFCE63-F216-D1DC-8802-892990C7E222"/>
+</associations>
+</Column>
+<Column name="FAIXA_ROLAMENTO_id_faixa" id="27D8D739-5971-1627-8C00-FF1E5B9B5525">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-03 00:01:29 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCAE610B-6FBB-613D-A3E6-CA3CF82000D0" referredColumn="06286098-1820-0A05-3537-DDDAA79C94FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07073345-D2C1-920E-6842-E267586C99FB" name="PASSAGEM_PK">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:45:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C1BF272-CF5F-2842-943D-7563B1D88D81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3493A31-1561-7DAB-1A0F-6241F12E8839" name="id_veiculo">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-03 00:00:46 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F3F52A5-9821-1DDC-2CDE-DCA732611B4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ADAD921-7599-0BA6-539F-ABB402870B40" name="id_faixarolamentov2">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-03 00:01:29 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27D8D739-5971-1627-8C00-FF1E5B9B5525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

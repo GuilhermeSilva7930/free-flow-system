@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5C65B6F-A048-DB01-9D9F-2AEC8B8AB9A2" containerWithKeyObject="7A8980FC-0B20-ED7F-00F3-F330A68F93B1" localFKIndex="6B2502EA-B236-0C6D-325D-6C92346E1B9B" name="id_faixarolamento">
+<createdBy>Luciane</createdBy>
+<createdTime>2024-05-02 23:58:26 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<referredTableLongName>FAIXA_ROLAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA016D19-6D59-E021-BF8B-D1A3F5480017</referredTableID>
+<keyObject>2F43079E-EDBB-FE1E-A3C3-3D2B7B87B62F</keyObject>
+<referredKeyID>2F43079E-EDBB-FE1E-A3C3-3D2B7B87B62F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_faixa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
