@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: 4em;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#brand {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-height {
+    height: 300px;
+}
+
+main {
+    height: calc(100vh - 64px);
+}
+
+.my-shadow {
+    box-shadow: var(--bs-box-shadow)
+}
+
+.my-shadow:hover {
+    box-shadow: var(--bs-box-shadow-lg)
+}
+
+.top-30 {
+    top: 30px !important;
+}
+
+@media (max-width: 369px) {
+    nav {
+        justify-content: center;
+    }
+}
