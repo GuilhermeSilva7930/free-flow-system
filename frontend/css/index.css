@@ -43,8 +43,44 @@ main {
     top: 30px !important;
 }
 
-@media (max-width: 369px) {
+.card {
+    width: 18rem;
+}
+
+.phone-cards {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .width-pc-card {
+        width: 10rem !important;
+    }
+}
+
+@media (max-width: 538px) {
+    .width-pc-card {
+        width: 8rem !important;
+    }
+}
+
+@media (max-width: 445px) {
+    .cards {
+        display: none !important;
+    }
+    .phone-cards {
+        display: block;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 386px) {
     nav {
         justify-content: center;
+    }
+}
+
+@media (max-width: 321px) {
+    .card {
+        width: 15rem !important;
     }
 }
