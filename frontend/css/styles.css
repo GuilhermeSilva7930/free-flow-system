@@ -1,0 +1,106 @@
+header {
+    width: 100%;
+    height: 4em;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#brand {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-height {
+    height: 300px;
+}
+
+main {
+    height: calc(100vh - 64px);
+}
+
+.my-shadow {
+    box-shadow: var(--bs-box-shadow)
+}
+
+.my-shadow:hover {
+    box-shadow: var(--bs-box-shadow-lg)
+}
+
+.top-30 {
+    top: 30px !important;
+}
+
+.card {
+    width: 18rem;
+}
+
+.phone-cards {
+    display: none;
+}
+
+.presentation {
+    max-width: 600px;
+}
+
+.btn-width {
+    width: 200px;
+}
+
+.return-icon {
+    top: 30px;
+}
+
+.table-width {
+    width: 80px;
+}
+
+.remove-icon {
+    margin-left: 8px;
+}
+
+@media (max-width: 992px) {
+    .width-pc-card {
+        width: 10rem !important;
+    }
+}
+
+@media (max-width: 538px) {
+    .width-pc-card {
+        width: 8rem !important;
+    }
+}
+
+@media (max-width: 445px) {
+    .cards {
+        display: none !important;
+    }
+    .phone-cards {
+        display: block;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 386px) {
+    nav {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 321px) {
+    .card {
+        width: 15rem !important;
+    }
+}
