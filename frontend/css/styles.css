@@ -51,6 +51,26 @@ main {
     display: none;
 }
 
+.presentation {
+    max-width: 600px;
+}
+
+.btn-width {
+    width: 200px;
+}
+
+.return-icon {
+    top: 30px;
+}
+
+.table-width {
+    width: 80px;
+}
+
+.remove-icon {
+    margin-left: 8px;
+}
+
 @media (max-width: 992px) {
     .width-pc-card {
         width: 10rem !important;
